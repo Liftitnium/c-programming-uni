@@ -5,7 +5,7 @@
 
 int main(void) {
     errno = 0;
-    long val = strtol("9999999999999999999", NULL, 10);
+    long val = strtol("9999", NULL, 10);
     const bool is_error = errno != 0;
     if (is_error) {
         perror("Encountered the following error in strtol()");

@@ -11,7 +11,7 @@
 
   int main() {
     int result;
-    if (divide(10, 0, &result) != 0) {
+    if (divide(10, 3, &result) != 0) {
       fprintf(stderr, "Error: Division by zero\n");
       return EXIT_FAILURE;
     }

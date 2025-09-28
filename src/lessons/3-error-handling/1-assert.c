@@ -7,6 +7,7 @@ void foo(int *ptr, size_t size) {
   assert(ptr != NULL);
   assert(size < MAX_ALLOWED_SIZE);
   // Do something with ptr
+  
 }
 
 int main() {
